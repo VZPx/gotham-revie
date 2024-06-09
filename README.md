@@ -1,52 +1,15 @@
-# Arkham: Revived
+# Gotham: Revived
+<img src="https://media.discordapp.net/attachments/1208513216238329916/1249470337490358332/image.png?ex=66676b6e&is=666619ee&hm=d8b789a31b3855ea3ef07b59d249b8f5ddb734cd748ffbfcff3b8347927cb3b1&=&format=webp&quality=lossless&width=1219&height=683" height="50%" width="50%">
 
-<img src="https://i.imgur.com/ACGb3uS.png" height="50%" width="50%">
+Originally made by KiwifruitDev https://github.com/KiwifruitDev/arkham-revived
 
-A custom authentication server for Batman: Arkham Origins Online.
+Custom server authentication for accessing WBID services in Gotham City Impostors
 
 Supports user authentication, saving of player data, linkage to Steam and Discord accounts, and Discord game invite generation.
 
-Join the [Discord](https://discord.gg/rrwWcy82fr) for support, updates, and matchmaking.
+Join the [Discord]([https://discord.gg/rrwWcy82fr](https://discord.gg/ef62xneQ3s)) for support, updates, and matchmaking.
 
 ## Usage
-
-Follow these steps in order to play on Arkham: Revived.
-
-1. Open the game directory for Batman: Arkham Origins through Steam.
-2. Navigate through `Online/BmGame/Config/DefaultWBIDVars.ini` and open it in a text editor.
-3. Find the following values:
-
-    ```ini
-    [GDHttp]
-    BaseUrl="https://ozzypc-wbid.live.ws.fireteam.net/"
-    EchoBaseURL="http://in.echo.fireteam.net/"
-    WBIDTicketURL="https://tokenservice.psn.turbine.com/TokenService"
-    WBIDAMSURL="https://cls.turbine.com/CLS"
-    ClientId="0938aa7a-6682-4b90-a97d-90becbddb9ce"
-    ClientIdSP="6ca97b4e-d278-48a4-8b66-80468447a513"
-    ClientSecret="GXnNQaRSuxaxlm6uR35HVk39u"
-    ClientSecretSP="AzyEBlZdY87HO3HINj7rqoBo7"
-    EchoUsername="8b8f1d8554d5437b8cdf689082311680"
-    EchoPassword="b3014aee79ba4968886003ecb271f764"
-    Environment="Live"
-    ```
-
-4. Replace them with these values:
-
-    ```ini
-    [GDHttp]
-    BaseUrl="http://[Source IP Address]:8385/"
-    EchoBaseURL="http://in.echo.fireteam.net/"
-    WBIDTicketURL="https://tokenservice.psn.turbine.com/TokenService"
-    WBIDAMSURL="http://[Source IP Address]:8385/CLS"
-    ClientId="0938aa7a-6682-4b90-a97d-90becbddb9ce"
-    ClientIdSP="6ca97b4e-d278-48a4-8b66-80468447a513"
-    ClientSecret="GXnNQaRSuxaxlm6uR35HVk39u"
-    ClientSecretSP="AzyEBlZdY87HO3HINj7rqoBo7"
-    EchoUsername="8b8f1d8554d5437b8cdf689082311680"
-    EchoPassword="b3014aee79ba4968886003ecb271f764"
-    Environment="Live"
-    ```
 
     - Note: The `BaseUrl` and `WBIDAMSURL` values are the only ones that need to be changed.
     - You must obtain the source IP address of the server you're connecting to. This is usually found in the "Getting Started" section of the server's website.
