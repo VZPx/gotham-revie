@@ -7,7 +7,7 @@ Custom server authentication for accessing WBID services in Gotham City Impostor
 
 Join the [Discord]([https://discord.gg/rrwWcy82fr](https://discord.gg/ef62xneQ3s)) for support, updates, and matchmaking.
 
-#How to use
+# How to use
 First off, this is really early alpha, as of now it currently supports logging in with a dummy WBID account. Community Challenges, Digital Camo, and Gangs aren't supported at the moment.
 
 1. Launch the game normally through steam
