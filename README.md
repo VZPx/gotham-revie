@@ -21,8 +21,14 @@ npm install
 node .
 ```
 3. Launch the game normally through steam
-4. Launch Cheat Engine, and look for this string "https://cls.psn.turbine.com/cls"
-5. Replace the string with "http://127.0.0.1:8080/CLS
+4. Launch Cheat Engine, and look for this string 
+```
+"https://cls.psn.turbine.com/cls"
+```
+5. Replace the string with 
+```
+"http://127.0.0.1:8080/CLS
+```
 6. Once you're in the main menu you should be logged into WBID, showing it as 'WBID Active' with a green light.
 
 ## License
