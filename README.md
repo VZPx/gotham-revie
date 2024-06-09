@@ -5,15 +5,25 @@ Originally made by KiwifruitDev for Batman: Arkham Origins Online: https://githu
 
 Custom server authentication for accessing WBID services in Gotham City Impostors
 
-Join the [Discord]([https://discord.gg/rrwWcy82fr](https://discord.gg/ef62xneQ3s)) for support, updates, and matchmaking.
+Join the [[Discord]](https://discord.gg/ef62xneQ3s) for support, updates, and matchmaking.
 
 # How to use
 First off, this is really early alpha, as of now it currently supports logging in with a dummy WBID account. Community Challenges, Digital Camo, and Gangs aren't supported at the moment.
 
-1. Launch the game normally through steam
-2. Launch Cheat Engine, and look for this string "https://cls.psn.turbine.com/cls"
-3. Replace the string with "http://127.0.0.1:8080/CLS
-4. Once you're in the main menu you should be logged into WBID, showing it as 'WBID Active' with a green light.
+1. Go to your preferred IDE, and download the repository
+```
+git clone https://github.com/VZPx/gotham-revive.git
+cd gotham-revive
+npm install
+```
+2. To start the server
+```
+node .
+```
+3. Launch the game normally through steam
+4. Launch Cheat Engine, and look for this string "https://cls.psn.turbine.com/cls"
+5. Replace the string with "http://127.0.0.1:8080/CLS
+6. Once you're in the main menu you should be logged into WBID, showing it as 'WBID Active' with a green light.
 
 ## License
 
