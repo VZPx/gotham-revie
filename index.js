@@ -550,6 +550,12 @@ const wbmanagement = {
         DummyFunc("FinishWBPasswordReset", args);
         return {};
     },
+    AuthenticateWbid: function(args, callback) {
+        DummyFunc("AuthenticateWbid", args);
+        return {
+            AuthenticateWbidResult: "true"    
+        };
+    },
     GetSubscriptionInformation: function(args, callback) {
         DummyFunc("GetSubscriptionInformation", args);
         return {
