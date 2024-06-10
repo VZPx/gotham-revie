@@ -14,7 +14,7 @@ Join the [[Discord]](https://discord.gg/ef62xneQ3s) for support, updates, and ma
 ## How to use
 First off, this is really early alpha, as of now it currently supports logging in with a dummy WBID account. Community Challenges, Digital Camo, and Gangs aren't supported at the moment.
 
-1. Go to your preferred IDE, download the repository and write the following
+1. Go to your preferred IDE, download the repository and write the following commands
 ```
 git clone https://github.com/VZPx/gotham-revive.git
 cd gotham-revive
