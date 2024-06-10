@@ -29,7 +29,7 @@ node .
 ```
 https://cls.psn.turbine.com/cls
 ```
-5. Replace the string with 
+5. Replace the string with this one (If hosing on a different machine, put the IPV4 Address of that one), 
 ```
 http://127.0.0.1:8080/CLS
 ```
